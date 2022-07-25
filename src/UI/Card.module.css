@@ -1,0 +1,11 @@
+.card {
+  border-radius: 1rem;
+  background-color: hsl(217, 19%, 24%);
+  width: 30rem;
+  max-width: 90%;
+  min-width: 300px;
+  margin: 5rem auto;
+  text-align: center;
+  padding: 1.5rem;
+  position: relative;
+}

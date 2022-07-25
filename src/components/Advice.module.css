@@ -1,0 +1,32 @@
+.title {
+  color: hsl(150, 100%, 66%);
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.divider {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.btn {
+  padding: 1rem;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(150, 100%, 66%);
+  width: 3.7rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: -1.7rem;
+  left: calc(50% - 1.9rem);
+}
+
+.btn:hover {
+  box-shadow: 0 0 1.5rem hsl(150, 100%, 66%);
+}
+
+.dice {
+  width: 1.4rem;
+}
