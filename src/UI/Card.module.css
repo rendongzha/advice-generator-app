@@ -2,10 +2,18 @@
   border-radius: 1rem;
   background-color: hsl(217, 19%, 24%);
   width: 30rem;
+  height: 18rem;
   max-width: 90%;
-  min-width: 300px;
-  margin: 5rem auto;
+  min-width: 250px;
+  /* margin: 16vh auto; */
   text-align: center;
   padding: 1.5rem;
   position: relative;
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 14rem;
+    height: 14rem;
+  }
 }

@@ -6,6 +6,10 @@
   text-transform: uppercase;
 }
 
+.text {
+  height: 9rem;
+}
+
 .divider {
   margin-bottom: 2rem;
   width: 100%;
@@ -29,4 +33,10 @@
 
 .dice {
   width: 1.4rem;
+}
+
+@media screen and (max-width: 450px) {
+  .text {
+    height: 7rem;
+  }
 }

@@ -22,7 +22,7 @@ const Advice = () => {
   return (
     <Fragment>
       <p className={classes.title}>Advice #{id}</p>
-      <p>"{advice}"</p>
+      <p className={classes.text}>"{advice}"</p>
       <img
         srcSet={`${image} 1440w, ${imageMobile} 375w`}
         sizes="(max-width:400px) 375px,
