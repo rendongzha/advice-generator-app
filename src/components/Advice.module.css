@@ -7,7 +7,7 @@
 }
 
 .text {
-  height: 7rem;
+  height: 10rem;
 }
 
 .divider {
@@ -35,8 +35,8 @@
   width: 1.4rem;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .text {
-    height: 8rem;
+    height: 11rem;
   }
-}
+} ;
